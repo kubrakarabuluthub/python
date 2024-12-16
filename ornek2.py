@@ -1,3 +1,7 @@
-print(1>2)              #printe1 1>2 karsilastirma sonucu aktarildi
-print(2==2)             #printe2 2==2 karsilastirma sonucu aktarili
-print(2<-5)             #print3 e 2<-5 karsilastirma sonucu aktarildi
+kisa_kenar=int(input("kisa_kenari giriniz: "))
+uzun_kenar=int(input("uzun_kenari giriniz: "))
+cevre=(kisa_kenar + uzun_kenar)*2
+alan=kisa_kenar*uzun_kenar
+print("alanı: ",alan,"çevresi:",cevre)
+print("alanı: cevresi:")                         
+

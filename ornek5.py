@@ -1,6 +1,5 @@
-kisakenar=(input("dikdörtgenin kisa kenari"))        #
-uzunkenar=(input("dikdörtgenin uzun kenari"))         #
-cevre=(kisa kenar+uzun kenar)*2
-alan=kisa_kenar*uzun_kenar           #
-print("dikdörtgenin cevresi: ",)
-print("dikdörtgenin alani: " ,alan)
+#kulanıcıya adını ve bu yıl kaç kitap okuduğunu 
+#sorulacak
+ad=input("adiniz: ")
+kitap_sayisi=input("okuduğunuz kitap sayisi: ")
+print(ad,", bu yil",kitap_sayisi,"kitap okudu.")
